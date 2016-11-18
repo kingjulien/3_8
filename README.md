@@ -1,6 +1,6 @@
 # 3_8 programming coding standard
 
-3_8 is a linting standard suggested to be used in any programming language (it was meant to be for php projects only at the start)
+##3_8 is a linting standard suggested to be used in any programming language (it was meant to be for php projects only at the start)
 
 
 It solves many common problems with naming convetions of functions and more.
@@ -8,7 +8,7 @@ It solves many common problems with naming convetions of functions and more.
 
 Its purpose is to be that every function name should have same naming convention across all programming languages, so one fullstack deveoper will not have problem switching f.e. from php to JS
 
-Reason:
+##Reason:
 
 
 Have you ever asked yourself or colleague what is the name of the function in your project for getting user data? Or what name you should give to function for setting user's name? I believe lot of us did. Is it getUser or getuser or getUserinfo or get_userinfo?
@@ -16,7 +16,7 @@ Have you ever asked yourself or colleague what is the name of the function in yo
 
 When using 3_8 it's always clear.
 
-Syntax
+##Syntax
 
 
 Rules for 3_8 naming convention (as name suggests) of function names are:
@@ -35,10 +35,10 @@ Variations like 3_7 or 4_8 was made by some crazy developers, but many real time
 
 
 
-Examples:
+##Examples:
 
 PHP:
-
+```php
 
 $userData = get_userdata();
 
@@ -53,7 +53,10 @@ If ($user->has_birthday()) {
 
 
 }
+```
 
+
+```javascript
 Javascript (ES6):
 
 
@@ -64,3 +67,4 @@ const get_userdata = () => {
 
 
 }
+```
