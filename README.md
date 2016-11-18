@@ -68,3 +68,9 @@ const get_userdata = () => {
 
 }
 ```
+
+```css
+<article class="row_verywide">
+
+<div id="top_messages">
+```
